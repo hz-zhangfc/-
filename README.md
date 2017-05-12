@@ -8,7 +8,7 @@
 注意:其返回结果从1开始，0代表没有<br>
 应用：判断字符是否以XX开头，where instr(t.name,'佰盈')=1
 
-##Java
-###正则表达式
+## Java
+### 正则表达式[资料](http://www.cnblogs.com/lzq198754/p/5780340.html)
 split(regex),match
 如："|"在正则表达式中代表或，所以要转义  "\\\\|"
