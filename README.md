@@ -12,3 +12,9 @@
 ### 正则表达式[资料](http://www.cnblogs.com/lzq198754/p/5780340.html)
 split(regex),match
 如："|"在正则表达式中代表或，所以要转义  "\\\\|"
+
+## android
+### 动画-animation
+极客学院-[Animation动画详解](http://wiki.jikexueyuan.com/project/android-animation)
+* **scale**
+  * fromx
