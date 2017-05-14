@@ -29,12 +29,12 @@ split(regex),match
 * **Shift+F6  重构-重命名**：第一次按选中，第二次按重构，使用时要按两次
 * **Ctrl+E 最近打开的文件**
 
-
-
 ### 动画-animation
 #### 极客学院-[Animation动画详解](http://wiki.jikexueyuan.com/project/android-animation)
 * **alpha、scale、translate、rotate、set 的 xml 属性及用法**  
 * **Interpolator 插值器**
 * **代码生成 alpha、scale、translate、rotate、set 及插值器动画**
+
+## ps
 
 
