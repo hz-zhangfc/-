@@ -16,5 +16,7 @@ split(regex),match
 ## android
 ### 动画-animation
 #### 极客学院-[Animation动画详解](http://wiki.jikexueyuan.com/project/android-animation)
-* **alpha、scale、translate、rotate、set 的 xml 属性及用法**
+* **alpha、scale、translate、rotate、set 的 xml 属性及用法**  
+* **Interpolator 插值器**
+* **代码生成 alpha、scale、translate、rotate、set 及插值器动画**
 
