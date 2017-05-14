@@ -15,6 +15,6 @@ split(regex),match
 
 ## android
 ### 动画-animation
-极客学院-[Animation动画详解](http://wiki.jikexueyuan.com/project/android-animation)
-* **scale**
-  * fromx
+#### 极客学院-[Animation动画详解](http://wiki.jikexueyuan.com/project/android-animation)
+* **alpha、scale、translate、rotate、set 的 xml 属性及用法**
+
