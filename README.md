@@ -9,6 +9,21 @@
 应用：判断字符是否以XX开头，where instr(t.name,'佰盈')=1
 
 ## Java
+### eclipse
+#### 快捷键
+**[资料](http://www.cnblogs.com/mq0036/p/4995390.html)**
+* **alt+/：自动补全代码或者提示代码**
+* **Ctrl+1：快速修正**
+* **ctrl+shift+r：打开资源列表**：搜索项目中的java,jsp等文件
+* **ctrl+O（字母O）：快速outline视图** 
+* **ctrl+e：快速转换编辑器**：当你打开很多文件时使用比较快捷
+* **ctrl+shift+o：自动引入包和删除无用包**
+* **ctrl+page down或ctrl+page up： 选项卡之间快速切换**：可以浏览前后的选项卡，如果使用熟练的话，各个页面切换会非常的快，感觉很不错。
+* **ctrl+m：当前编辑页面窗口最大化**：再按一下恢复
+* **ctrl+shift+x和ctrl+shift+y：英文字母大小写的转换**
+* **Ctrl+L:快速跳到某行**：查看日志时提示某行错误可以使用这个快速定位
+* **F4：打开选中元素的类型继承结构**
+* **Ctrl+Shift+G：在workspace中搜索选中元素的引用**
 ### 正则表达式[资料](http://www.cnblogs.com/lzq198754/p/5780340.html)
 split(regex),match
 如："|"在正则表达式中代表或，所以要转义  "\\\\|"
