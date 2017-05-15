@@ -30,7 +30,8 @@ split(regex),match
 如："|"在正则表达式中代表或，所以要转义  "\\\\|"
 
 ### java TCP/IP SOCKET编程
-极客学院-[java TCP/IP SOCKET编程](http://wiki.jikexueyuan.com/project/java-socket/overwise.html)
+极客学院-[java TCP/IP SOCKET编程](http://wiki.jikexueyuan.com/project/java-socket/overwise.html)<br>
+慕课网-[java socket](http://www.imooc.com/learn/161)
 
 ## android
 ### androidstudio
