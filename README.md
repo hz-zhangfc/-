@@ -9,6 +9,8 @@
 应用：判断字符是否以XX开头，where instr(t.name,'佰盈')=1
 
 ## Java
+### [JavaWeb工程师之路](http://ke.jikexueyuan.com/zhiye/javaweb/)
+  按照这条路，开始学习吧
 ### eclipse
 #### 快捷键
 **[资料](http://www.cnblogs.com/mq0036/p/4995390.html)**
@@ -34,6 +36,8 @@ split(regex),match
 慕课网-[java socket](http://www.imooc.com/learn/161)
 
 ## android
+## [Android工程师](http://ke.jikexueyuan.com/zhiye/android/)
+java为主，同时学些Android充实一下，不然只学Java太无聊了
 ### androidstudio
 #### 快捷键
 **[资料1](http://www.cnblogs.com/zyw-205520/p/5231843.html)**
