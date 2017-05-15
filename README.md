@@ -11,6 +11,7 @@
 ## Java
 ### [JavaWeb工程师之路](http://ke.jikexueyuan.com/zhiye/javaweb/)
   按照这条路，开始学习吧
+* servlet [资料1](http://www.cnblogs.com/whgk/p/6399262.html)
 ### eclipse
 #### 快捷键
 **[资料](http://www.cnblogs.com/mq0036/p/4995390.html)**
