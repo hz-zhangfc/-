@@ -8,6 +8,14 @@
 注意:其返回结果从1开始，0代表没有<br>
 应用：判断字符是否以XX开头，where instr(t.name,'佰盈')=1
 
+* **case when then else**<br>
+CASE
+WHEN \<A> THEN \<somethingA><br>
+WHEN \<B> THEN \<somethingB><br>
+ELSE \<somethingE><br>
+END<br>
+[详细](http://blog.csdn.net/rznice/article/details/6772000)
+
 ## Java
 ### [JavaWeb工程师之路](http://ke.jikexueyuan.com/zhiye/javaweb/)
   按照这条路，开始学习吧
