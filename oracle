@@ -22,6 +22,7 @@
   
   
 二、控制循环
+
 1.connect by和rownum使用
   select rownum from dual connect by rownum<5   ------结果为：1,2,3,4
   select rownum from dual connect by rownum>2   ------结果为：1
@@ -38,4 +39,9 @@
      ) connect by instr(str,',',1,rownum)>0
     c.select substr(s,1,instr(s,',',1,1)-1) a from(select substr(str,instr(str,',',1,rownum)+1)||',' s from (select ',2016121-100,2016122-251,2016123-100,2016124-100,201684-100000,201644-1' str from dual
     ) connect by instr(str,',',1,rownum)>0)
+    
+2.connect by
+  这个概念解释得比较好 https://wenku.baidu.com/view/f796d476de80d4d8d05a4f3f.html
+      如：其中用prior表示上一条记录，比如connect by prior id=praentid就是说上一条记录的id是本条记录的praentid
+  这个有例子 https://wenku.baidu.com/view/f796d476de80d4d8d05a4f3f.html
   
