@@ -53,3 +53,11 @@
   2 NVL2函数
       NVL2函数的格式如下：NVL2(expr1,expr2, expr3)
       含义是：如果该函数的第一个参数为空那么显示第二个参数的值，如果第一个参数的值不为空，则显示第三个参数的值。
+      
+四、归纳聚合
+  1.group by
+      注意事项：
+        a.select 后跟的只能是 group by后的字段，和聚合函数。
+          如：select num1，num2，sum(num3) from t_t2 group by num1,num2;   //num1,num2作为一个组合条件
+              select num1，num2 from t_t2 group by num1;    //报错，num2不是分组条件
+        b.
