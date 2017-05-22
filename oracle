@@ -45,3 +45,11 @@
       如：其中用prior表示上一条记录，比如connect by prior id=praentid就是说上一条记录的id是本条记录的praentid
   这个有例子 https://wenku.baidu.com/view/f796d476de80d4d8d05a4f3f.html
   
+  
+三、未分组函数
+  1.nvl:
+      NVL函数的格式如下：NVL(expr1,expr2)
+      含义是：如果oracle第一个参数为空那么显示第二个参数的值，如果第一个参数的值不为空，则显示第一个参数本来的值。
+  2 NVL2函数
+      NVL2函数的格式如下：NVL2(expr1,expr2, expr3)
+      含义是：如果该函数的第一个参数为空那么显示第二个参数的值，如果第一个参数的值不为空，则显示第三个参数的值。
