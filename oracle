@@ -2,6 +2,8 @@
 
 1.substr函数--字符串的截取
   substr(字符串,截取开始位置,截取长度) //返回截取的字
+  //如果截取长度不写，代表截取后面所有
+  substr('Hello World',2)   //结果为：'ello world'
   substr('Hello World',0,1) //返回结果为 'H'  *从字符串第一个字符开始截取长度为1的字符串
   substr('Hello World',1,1) //返回结果为 'H'  *0和1都是表示截取的开始位置为第一个字符
   substr('Hello World',2,4) //返回结果为 'ello'
@@ -20,14 +22,20 @@
   
   
 二、控制循环
-1.connect by
+1.connect by和rownum使用
   select rownum from dual connect by rownum<5   ------结果为：1,2,3,4
   select rownum from dual connect by rownum>2   ------结果为：1
   select rownum from dual connect by rownum>1   ------结果为：1-无穷
+  注意：rownum是oracle中关键字，行号
+    如果用select a from dual connect by a<5报错
   理解：
     从上述可以看出，rownum被connect by控制，是一个控制循环的变量，且无论条件如何总会取到1（个人感觉第一次不会判断，从下一次开始判断）
     有点像 int x=1;do{...;x++;}while(循环条件)
     
-  例子：把一个字符串转成多行数据
-  
+  例子：把一个字符串转成多行数据   步骤如下
+    a.select ',2016121-100,2016122-251,2016123-100,2016124-100,201684-100000,201644-1' str from dual
+    b.select substr(str,instr(str,',',1,rownum)+1)||',' s from (select ',2016121-100,2016122-251,2016123-100,2016124-100,201684-100000,201644-1' str from dual
+     ) connect by instr(str,',',1,rownum)>0
+    c.select substr(s,1,instr(s,',',1,1)-1) a from(select substr(str,instr(str,',',1,rownum)+1)||',' s from (select ',2016121-100,2016122-251,2016123-100,2016124-100,201684-100000,201644-1' str from dual
+    ) connect by instr(str,',',1,rownum)>0)
   
