@@ -3,7 +3,7 @@
 ## 杂记
 一款很好用的视频解码器k-Lite<br>
 
-## oracle
+## oracle [链接](https://github.com/hz-zhangfc/note/blob/master/oracle)
 ### 函数
 * **instr函数：从一个字符串中查找指定子串的位置**<br>
 如：select instr('张12138','38') from dual; 结果是：5。'38'开始出现在第五位<br>
@@ -22,7 +22,7 @@ END<br>
 字符串转日期-to_date('2015-05-23','yyyy-mm-dd') ， to_date('201505223','yyyymmdd');<br>
 日期转字符串-to_char(sysdate,'yyyy-mm-dd');<br>
 时间运算-sysdate-1：结果显示今天减去一天的日子。
-[ooo](https://github.com/hz-zhangfc/note/blob/master/oracle)
+
 
 ## Java
 ### [JavaWeb工程师之路](http://ke.jikexueyuan.com/zhiye/javaweb/)
