@@ -22,6 +22,7 @@ END<br>
 字符串转日期-to_date('2015-05-23','yyyy-mm-dd') ， to_date('201505223','yyyymmdd');<br>
 日期转字符串-to_char(sysdate,'yyyy-mm-dd');<br>
 时间运算-sysdate-1：结果显示今天减去一天的日子。
+[ooo](https://github.com/hz-zhangfc/note/blob/master/oracle)
 
 ## Java
 ### [JavaWeb工程师之路](http://ke.jikexueyuan.com/zhiye/javaweb/)
