@@ -27,6 +27,8 @@ END<br>
 日期转字符串-to_char(sysdate,'yyyy-mm-dd');<br>
 时间运算-sysdate-1：结果显示今天减去一天的日子。
 
+### 表结构
+#### [约束条件](http://blog.csdn.net/hanxuemin12345/article/details/7828206)
 
 ## Java
 ### [JavaWeb工程师之路](http://ke.jikexueyuan.com/zhiye/javaweb/)
