@@ -6,7 +6,7 @@
 ### tortoisegit 
 * [上传下载项目](http://blog.csdn.net/yuanzichao/article/details/44922593)
 
-
+## sql总结 [链接](http://www.cnblogs.com/yank/category/583618.html)
 ## oracle [链接](https://github.com/hz-zhangfc/note/blob/master/oracle)
 ### 函数
 * **instr函数：从一个字符串中查找指定子串的位置**<br>
