@@ -2,6 +2,7 @@
 记录平时碰到的一些知识点<br>
 ## 杂记
 一款很好用的视频解码器k-Lite<br>
+editplus在线注册及一些工具[点](https://github.com/hz-zhangfc/note/edit/master/README.md)<br>
 
 ### tortoisegit 
 * [上传下载项目](http://blog.csdn.net/yuanzichao/article/details/44922593)
