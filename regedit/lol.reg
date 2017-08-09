@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool]
+"Icon"="D:\\lol\\英雄联盟\\TCLS\\Client.exe"
+"MUIVerb"="右键游戏"
+"SubCommands"=""
+"Position"="bottom"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\lol]
+"Icon"="D:\\lol\\英雄联盟\\TCLS\\Client.exe"
+"MUIVerb"="英雄联盟"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\lol\command]
+@="D:\\lol\\英雄联盟\\TCLS\\Client.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\wymusic]
+"Icon"="D:\\网易云music\\CloudMusic\\cloudmusic.exe"
+"MUIVerb"="网易云音乐"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\lol\command]
+@="D:\\网易云music\\CloudMusic\\cloudmusic.exe"
