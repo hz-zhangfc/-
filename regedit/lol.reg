@@ -1,23 +1,23 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\gametool]
-"Icon"="D:\\lol\\Ó¢ĞÛÁªÃË\\TCLS\\Client.exe"
-"MUIVerb"="ÓÒ¼üÓÎÏ·"
+"Icon"="D:\\lol\\è‹±é›„è”ç›Ÿ\\TCLS\\Client.exe"
+"MUIVerb"="å³é”®æ¸¸æˆ"
 "SubCommands"=""
 "Position"="bottom"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell]
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\lol]
-"Icon"="D:\\lol\\Ó¢ĞÛÁªÃË\\TCLS\\Client.exe"
-"MUIVerb"="Ó¢ĞÛÁªÃË"
+"Icon"="D:\\lol\\è‹±é›„è”ç›Ÿ\\TCLS\\Client.exe"
+"MUIVerb"="è‹±é›„è”ç›Ÿ"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\lol\command]
-@="D:\\lol\\Ó¢ĞÛÁªÃË\\TCLS\\Client.exe"
+@="D:\\lol\\è‹±é›„è”ç›Ÿ\\TCLS\\Client.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\wymusic]
-"Icon"="D:\\ÍøÒ×ÔÆmusic\\CloudMusic\\cloudmusic.exe"
-"MUIVerb"="ÍøÒ×ÔÆÒôÀÖ"
+"Icon"="D:\\ç½‘æ˜“äº‘music\\CloudMusic\\cloudmusic.exe"
+"MUIVerb"="ç½‘æ˜“äº‘éŸ³ä¹"
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\lol\command]
-@="D:\\ÍøÒ×ÔÆmusic\\CloudMusic\\cloudmusic.exe"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\gametool\shell\wymusic\command]
+@="D:\\ç½‘æ˜“äº‘music\\CloudMusic\\cloudmusic.exe"
