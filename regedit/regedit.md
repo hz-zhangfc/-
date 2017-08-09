@@ -1,7 +1,7 @@
 # 右键lol
 
 ## 成果
-<img src="https://github.com/hz-zhangfc/note/tree/master/regedit/youjiantool.jpg" width="40px" height="40px"/>
+<img src="https://github.com/hz-zhangfc/note/blob/master/regedit/youjiantool.jpg" width="650px" height="400px" alt="在下面"/>
 
 ## 参考文件
 [注册列表文件](https://github.com/hz-zhangfc/note/tree/master/regedit/lol.reg)
