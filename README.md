@@ -50,6 +50,8 @@ END<br>
 * **Ctrl+L:快速跳到某行**：查看日志时提示某行错误可以使用这个快速定位
 * **F4：打开选中元素的类型继承结构**
 * **Ctrl+Shift+G：在workspace中搜索选中元素的引用**
+* **shift+enter:在当前行的下一行建一个空白行**
+* **ctrl+shift+enter:在当前行上一行建一个空白行**
 
 ### 正则表达式[资料](http://www.cnblogs.com/lzq198754/p/5780340.html)
 split(regex),match
