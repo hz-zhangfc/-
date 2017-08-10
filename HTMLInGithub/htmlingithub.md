@@ -1,6 +1,6 @@
-<h1 color="red" height="50px">github的md文件支持html标签</h1>
+# <font style="color:red">github的md文件支持html标签</font>
 <hr/>
-<h2>目的</h2>
+<h2 style="color:red;">目的</h2>
 <i>这是一个斜体标签</i><br/>
 <b>这是一个粗体标签</b><br/>
 <pre>
